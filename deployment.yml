@@ -3,11 +3,11 @@ kind: Deployment
 metadata:
   name: html-app-deployment
   annotations:
-    argocd-image-updater.argoproj.io/image-list: durgesh191/sample-html-app
+    argocd-image-updater.argoproj.io/image-list: durgesh191/sample-html-app:v1.x
     argocd-image-updater.argoproj.io/write-back-method: git
     argocd-image-updater.argoproj.io/durgesh191_sample-html-app.update-strategy: semver
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: sample-html-app
