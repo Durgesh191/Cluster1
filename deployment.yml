@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: sample-html-app
-        image: durgesh191/sample-html-app:v1
+        image: durgesh191/sample-html-app:v1.1.0
         ports:
         - containerPort: 80
