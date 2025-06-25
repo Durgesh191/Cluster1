@@ -5,7 +5,7 @@ metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: durgesh191/sample-html-app
     argocd-image-updater.argoproj.io/write-back-method: git
-    argocd-image-updater.argoproj.io/durgesh191_sample-html-app.update-strategy: semver  
+    argocd-image-updater.argoproj.io/durgesh191_sample-html-app.update-strategy: semver
 spec:
   replicas: 2
   selector:
